@@ -1,0 +1,16 @@
+db.dev.url=${DB_DEV_URL:jdbc:mariadb://itedunet1771.cafe24.com:3306/itedunet1771?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Seoul}
+db.dev.username=${DB_DEV_USERNAME:itedunet1771}
+db.dev.password=${DB_DEV_PASSWORD:}
+db.prod.username=${DB_PROD_USERNAME:itedunet1771}
+db.prod.password=${DB_PROD_PASSWORD:}
+
+
+# ----- 알리고 알림톡 (KakaoMessageServiceImpl) -----
+aligo.api-key=${ALIGO_API_KEY:m7vtoi87m8lg4wj80no2e2fekfwujn86}
+aligo.user-id=${ALIGO_USER_ID:slavecom}
+aligo.sender-key=${ALIGO_SENDER_KEY:354fef6399c7245bfad7a45a4a5abd451b56ca0e}
+aligo.sender-tel=${ALIGO_SENDER_TEL:055-716-1771}
+
+
+# ----- NCS 공공데이터포털 OpenAPI serviceKey (QuestionController) -----
+ncs.service-key=${NCS_SERVICE_KEY:7mTtZwcsZm0EknbwhaXmBfO%2Fo9qHeFDP29PaSuD4doM7VEur2crWtDucGL3xavEHidRJGRK3vCK1v5M9oRf4jQ%3D%3D}
